@@ -8,6 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2661756140826724201, guid: dddeda6d0629a09438dbf97ce84d81fd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2661756140826724201, guid: dddeda6d0629a09438dbf97ce84d81fd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 2661756140826724201, guid: dddeda6d0629a09438dbf97ce84d81fd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.084
+      objectReference: {fileID: 0}
     - target: {fileID: 2661756142257781570, guid: dddeda6d0629a09438dbf97ce84d81fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79,6 +94,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4137649491967908712}
+    - targetCorrespondingSourceObject: {fileID: 2661756140827089737, guid: dddeda6d0629a09438dbf97ce84d81fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2144044233750975148}
   m_SourcePrefab: {fileID: 100100000, guid: dddeda6d0629a09438dbf97ce84d81fd, type: 3}
 --- !u!1 &1741542645864064137 stripped
 GameObject:
@@ -151,6 +170,33 @@ MonoBehaviour:
   DestroyedEffect: {fileID: 0}
   HitPlayer: {fileID: 4385176541659733586}
   IdleSource: {fileID: 4385176541856209665}
+--- !u!1 &1741542646983181469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2661756140827089737, guid: dddeda6d0629a09438dbf97ce84d81fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 4385176542651015124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &2144044233750975148
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741542646983181469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.95
+  m_Center: {x: -0.04039729, y: 1.2542202, z: -0.09896618}
 --- !u!114 &4385176541659733586 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1293402502, guid: dddeda6d0629a09438dbf97ce84d81fd,
